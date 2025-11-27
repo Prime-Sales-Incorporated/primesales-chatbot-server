@@ -58,6 +58,13 @@ const fetchRelevantInfo = async (message) => {
     return await getReply("primo");
   }
   if (
+    msg.includes("handsome") &&
+    (msg.includes("prime sales") || msg.includes("primesales"))
+  ) {
+    return await getReply("nixon");
+  }
+
+  if (
     msg.includes("location") ||
     msg.includes("loc") ||
     msg.includes("where are you located") ||

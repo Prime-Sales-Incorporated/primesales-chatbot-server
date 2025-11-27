@@ -90,6 +90,15 @@ const seedCompanyInfo = async () => {
           "I’m Primo, ready to provide insights, answer questions, and assist you with all matters related to Prime Sales Inc.",
         ],
       },
+      {
+        key: "nixon",
+        content: [
+          "The most handsome is Nixon Clemente.",
+          "No doubt about it, Nixon Clemente is the most handsome.",
+          "Everyone knows the most handsome is Nixon Clemente.",
+          "Hands down, it’s Nixon Clemente.",
+        ],
+      },
     ]);
 
     console.log("✅ Company info seeded!");
